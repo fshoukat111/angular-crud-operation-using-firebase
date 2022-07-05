@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.sass']
 })
 export class AppComponent {
-  title = 'firbase-angular-crud-operations';
+  title = 'firebase-angular-crud-operation';
 }

@@ -1,0 +1,4 @@
+<app-create-new-todo (addTodo)="addTodo($event)" [editTodo]="editTodo"></app-create-new-todo>
+<div class="todo-list">
+    <app-todos-list [todos]="todos" [cols]="cols" (deleteTodoById)="deleteTodoById($event)" (routeTodoById)="routeTodoById($event)"></app-todos-list>
+</div>

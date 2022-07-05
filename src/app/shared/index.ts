@@ -1,0 +1,1 @@
+export * from "@apps/shared/shared.module"
